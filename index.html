@@ -1,0 +1,44 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name='viewport' content="width=device-width">
+		<title>JavaScript Discount Calculator</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+		<div id ="container">
+			<h1>Discount Calculator</h1>
+			<hr>
+			<div>
+			<label>Item Price: </label>
+			<input type="text" placeholder="Enter your item Price" id="totalprice" >
+			</div>
+			
+			<div>
+				<label>Number of item</label>
+				<input type="range" min="1" max="10" value="1" id="quantity">
+				<span  id="numOutput"></span>
+			</div>
+			<div>
+				<label>Discount: </label>
+				<input type="range" value="0" id="discount">
+				<span id="disOutput"></span>
+			</div>
+			<hr>
+			<div>
+				<div>
+					<label >New Price</label><span id="newPrice">0</span>
+				</div>
+				<div>
+					<label >Discount Price</label><span id="disPrice">0</span>
+				</div>
+			
+			</div>
+		</div>
+	<script src="script.js"></script>
+	</body>
+
+
+</html>
